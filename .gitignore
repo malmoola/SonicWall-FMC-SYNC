@@ -1,0 +1,9 @@
+# Never commit firewall backups, decoded configs or generated reports (customer data, hashes, secrets)
+*.exp
+*_decoded.txt
+*.csv
+*.xlsx
+*.log
+plan.json
+sw2fmc_*/
+__pycache__/
